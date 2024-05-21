@@ -4,3 +4,4 @@ numpy
 fastdtw
 matplotlib
 scipy
+ffmpeg-python
