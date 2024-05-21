@@ -1,0 +1,6 @@
+librosa
+streamlit
+numpy
+fastdtw
+matplotlib
+scipy
