@@ -127,8 +127,8 @@ if audio_file1 and audio_file2:
     if uploaded_file1:
         st.audio(uploaded_file1, format='audio/wav')
     uploaded_file2 = convert_to_mp3(audio_file2)
-    if uploaded_file1:
-        st.audio(uploaded_file1, format='audio/wav')
+    if uploaded_file2:
+        st.audio(uploaded_file2, format='audio/wav')
     
     
   
