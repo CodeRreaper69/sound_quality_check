@@ -103,7 +103,7 @@ def convert_to_mp3(uploaded_file):
         ffmpeg.input(AUDIO_FILE).output(output_file).run(overwrite_output=True)
         return output_file
     except ffmpeg.Error as e:
-        st.error(f"An error occurred: {e}")
+        st.caption(f"An error occurred: {e}(can be ignored)")
         return AUDIO_FILE  # Fallback to original file if conversion fails
 
 def cleanup_temp_files():
@@ -112,7 +112,7 @@ def cleanup_temp_files():
         try:
             os.remove(file_path)
         except Exception as e:
-            st.error(f"Error deleting file {file_path}: {e}")
+            st.caption(f"Error deleting file {file_path}: {e}(can be ignored)")
 
 
 
