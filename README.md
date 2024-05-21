@@ -1,6 +1,6 @@
 # Audio Quality Comparison Tool
 
-[Live App][https://sound-analysis.onrender.com/](https://sound-quality-analysis-by-dey-sourabh.streamlit.app/)  
+[Live App](https://sound-quality-analysis-by-dey-sourabh.streamlit.app/)  
 
 
 ## Overview
